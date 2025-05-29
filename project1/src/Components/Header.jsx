@@ -1,18 +1,12 @@
 
 const Header = () => {
-    let customcss = "blue";
+    const isLogin = false;
+    const greeting = isLogin ? 'Hello User' : 'Hello Guest';
   return (
     <div>
-       <h1>Adding the dynamic syling</h1>
-<p>This is the <span className={customcss}>dynamic styling</span></p>
-<p>This is the <span className={customcss}>dynamic styling</span></p>
-<p>This is the <span className={customcss}>dynamic styling</span></p>
-<p>This is the <span className="code">dynamic styling</span></p>
-<p>This is the <span className="blue">dynamic styling</span></p>
+       <h1>Conditional rendering</h1>
 
-<h1>This is a direct syling </h1>
-<p style={{color:"green "}}>This is the <span className="blue">dynamic styling</span></p>
-<p style={{color:"green , font-size:40px"}}>This is the <span className="blue">dynamic styling</span></p>
+       <h2>{greeting}  #This will render accorning to the condition of true or false</h2>
     </div>
   )
 }
