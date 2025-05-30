@@ -1,12 +1,15 @@
-import OneOfSample from "./Components/OneOfSample"
+
+import MultitypeComponent from "./Components/MultitypeComponent"
 import "./css/app.css"
 function App() {
 
 
   return (
     <>
-<OneOfSample color="green" />
-  
+
+  <MultitypeComponent value="hello" />
+<MultitypeComponent value={10} />
+<MultitypeComponent value={true} />
     </>
   )
 }
