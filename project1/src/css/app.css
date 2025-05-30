@@ -6,4 +6,12 @@
 .blue{
     color: blue;
     font-size: 20px;
-}
+} 
+.student table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    border-collapse: collapse;
+    width: 300px;
+}       
+    
