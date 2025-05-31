@@ -1,15 +1,16 @@
 
-import MultitypeComponent from "./Components/MultitypeComponent"
+
+import FunctionSample from "./Components/FunctionSample"
 import "./css/app.css"
 function App() {
 
-
+const handleClick = () => {
+  alert("You have clicked me");
+}
   return (
     <>
-
-  <MultitypeComponent value="hello" />
-<MultitypeComponent value={10} />
-<MultitypeComponent value={true} />
+    <div><h1>This is a parent component</h1></div>
+<FunctionSample  handleClick={handleClick}/>
     </>
   )
 }
