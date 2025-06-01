@@ -1,7 +1,6 @@
 
-
-import FunctionSample from "./Components/FunctionSample"
 import "./css/app.css"
+import Cart from "./formSamples/Cart";
 function App() {
 
 const handleClick = () => {
@@ -9,8 +8,7 @@ const handleClick = () => {
 }
   return (
     <>
-    <div><h1>This is a parent component</h1></div>
-<FunctionSample  handleClick={handleClick}/>
+    <Cart />
     </>
   )
 }
