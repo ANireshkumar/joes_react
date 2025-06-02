@@ -1,5 +1,5 @@
 
-import UserDetails from "./Components/UserDetails";
+import RegFrm from "./Components/RegFrm";
 import "./css/app.css"
 function App() {
 
@@ -8,9 +8,7 @@ const handleClick = () => {
 }
   return (
     <>
-    <UserDetails />
-    <UserDetails />
-     <UserDetails />
+    <RegFrm />
     </>
   )
 }
