@@ -1,6 +1,6 @@
 
+import UserDetails from "./Components/UserDetails";
 import "./css/app.css"
-import Cart from "./formSamples/Cart";
 function App() {
 
 const handleClick = () => {
@@ -8,7 +8,9 @@ const handleClick = () => {
 }
   return (
     <>
-    <Cart />
+    <UserDetails />
+    <UserDetails />
+     <UserDetails />
     </>
   )
 }
