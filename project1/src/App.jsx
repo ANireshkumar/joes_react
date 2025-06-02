@@ -1,5 +1,5 @@
 
-import RegFrm from "./Components/RegFrm";
+import AdviceApp from "./Components/AdviceApp";
 import "./css/app.css"
 function App() {
 
@@ -8,7 +8,7 @@ const handleClick = () => {
 }
   return (
     <>
-    <RegFrm />
+<AdviceApp />
     </>
   )
 }
